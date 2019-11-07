@@ -1,0 +1,11 @@
+2019-11-04 23:58:32.795 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 23:59:03.979 | INFO     | __main__:main:63 - success create tcp server
+2019-11-04 23:59:03.979 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 23:59:30.005 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 23:59:38.240 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-06 22:37:31.256 | INFO     | __main__:main:63 - success create tcp server
+2019-11-06 22:37:31.230 | INFO     | __main__:__init__:22 - failed connect server /tmp/vm_remote.sock
+2019-11-06 23:28:47.537 | INFO     | __main__:__init__:22 - failed connect server /tmp/vm_remote.sock
+2019-11-06 23:28:57.009 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-07 22:46:24.850 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-07 22:53:45.382 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock

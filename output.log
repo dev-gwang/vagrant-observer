@@ -1,0 +1,8 @@
+2019-10-27 17:26:20.075 | INFO     | __main__:__init__:21 - failed connect server /tmp/vm_remote.sock
+2019-10-27 17:26:20.077 | INFO     | __main__:main:61 - success create tcp server
+2019-10-27 17:31:46.939 | INFO     | __main__:__init__:19 - success connect server /tmp/vm_remote.sock
+2019-10-27 17:31:46.940 | INFO     | __main__:main:61 - success create tcp server
+2019-10-27 17:49:03.302 | INFO     | __main__:__init__:21 - failed connect server /tmp/vm_remote.sock
+2019-10-27 17:49:03.304 | INFO     | __main__:main:61 - success create tcp server
+2019-11-04 23:57:47.423 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 23:57:47.426 | INFO     | __main__:main:63 - success create tcp server
