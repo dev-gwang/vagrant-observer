@@ -1,0 +1,202 @@
+2019-10-21 00:02:34.637 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:02:46.320 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:02:55.046 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:05:07.292 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:07:45.076 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:08:18.160 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:08:42.828 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:09:00.523 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:09:15.599 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:09:38.378 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:10:07.274 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:10:17.286 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:13:45.906 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:14:08.909 | INFO     | __main__:__init__:16 - TEST
+2019-10-21 00:16:00.517 | INFO     | __main__:__init__:19 - success connect server /tmp/vm_remote.sock
+2019-10-21 00:19:20.880 | INFO     | __main__:__init__:19 - success connect server /tmp/vm_remote.sock
+2019-10-21 00:19:44.332 | INFO     | __main__:__init__:19 - success connect server /tmp/vm_remote.sock
+2019-10-21 00:19:44.332 | INFO     | __main__:main:61 - success create tcp server
+2019-10-21 00:19:53.301 | INFO     | __main__:__init__:19 - success connect server /tmp/vm_remote.sock
+2019-10-21 00:19:53.303 | INFO     | __main__:main:61 - success create tcp server
+2019-11-04 00:33:13.433 | INFO     | __main__:__init__:19 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:33:13.434 | INFO     | __main__:main:61 - success create tcp server
+2019-11-04 00:40:41.616 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:40:45.069 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:40:52.403 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:41:08.356 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:41:32.270 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:41:39.303 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:41:39.304 | INFO     | __main__:main:62 - success create tcp server
+2019-11-04 00:41:46.000 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:41:47.758 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:44:18.980 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:44:18.980 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:44:22.765 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:44:22.765 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:44:24.639 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:44:24.639 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:44:26.439 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:44:26.439 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:44:32.662 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:44:32.662 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:45:17.290 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:45:17.291 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:45:19.007 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:45:19.008 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:45:28.299 | INFO     | __main__:main:65 - success create tcp server
+2019-11-04 00:45:28.300 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:45:38.460 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 00:45:40.174 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+Traceback (most recent call last):
+  File "agent/tcp-client.py", line 10, in <module>
+    sock.connect((HOST, PORT))
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "agent/tcp-client.py", line 10, in <module>
+    sock.connect((HOST, PORT))
+ConnectionRefusedError: [Errno 111] Connection refused
+2019-11-04 23:57:47.423 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-04 23:57:47.426 | INFO     | __main__:main:63 - success create tcp server
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+    main()
+  File "agent/server.py", line 64, in main
+    server.serve_forever()
+  File "/usr/local/lib/python3.8/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/usr/local/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+2019-11-04 23:58:32.795 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+    main()
+  File "agent/server.py", line 60, in main
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Exception ignored in: <module 'threading' from '/usr/local/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+2019-11-04 23:59:03.979 | INFO     | __main__:main:63 - success create tcp server
+2019-11-04 23:59:03.979 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+127.0.0.1 wrote:
+b''
+127.0.0.1 wrote:
+b''
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+    main()
+  File "agent/server.py", line 64, in main
+    server.serve_forever()
+  File "/usr/local/lib/python3.8/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/usr/local/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+    main()
+  File "agent/server.py", line 60, in main
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2019-11-04 23:59:30.005 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+Exception ignored in: <module 'threading' from '/usr/local/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+    main()
+  File "agent/server.py", line 60, in main
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2019-11-04 23:59:38.240 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+2019-11-06 22:37:31.256 | INFO     | __main__:main:63 - success create tcp server
+2019-11-06 22:37:31.230 | INFO     | __main__:__init__:22 - failed connect server /tmp/vm_remote.sock
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+    main()
+  File "agent/server.py", line 60, in main
+2019-11-06 23:28:47.537 | INFO     | __main__:__init__:22 - failed connect server /tmp/vm_remote.sock
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "agent/server.py", line 68, in <module>
+    main()
+  File "agent/server.py", line 60, in main
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2019-11-06 23:28:57.009 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+Exception ignored in: <module 'threading' from '/usr/local/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+2019-11-07 22:46:24.850 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+Traceback (most recent call last):
+  File "agent/server.py", line 66, in <module>
+    main()
+  File "agent/server.py", line 58, in main
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Exception ignored in: <module 'threading' from '/usr/local/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "agent/server.py", line 66, in <module>
+2019-11-07 22:53:45.382 | INFO     | __main__:__init__:20 - success connect server /tmp/vm_remote.sock
+    main()
+  File "agent/server.py", line 58, in main
+    with socketserver.TCPServer((HOST, PORT), MyTCPHandler) as server:
+  File "/usr/local/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
