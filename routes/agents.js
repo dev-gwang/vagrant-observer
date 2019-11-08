@@ -53,20 +53,14 @@ function onClientConnected(sock) {
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 /* 새로운 에이전트 추가 */
-router.post('/', function(req, res, next) {
+router.get('/list', function(req, res, next) {
   var agent = req.body;
-  logging.info(req, "Agent Request Add " + agent);
-  console.log(req.addre);
-  model.agents.create({
-    name        : agent["name"],
-    address     : agent["address"],
-    description : "",
-    status      : 1
-  }).catch(err => {
-    console.log(err);
-  });
+  logging.info(req, "Find Agents " + agent);
 
-  res.json("result");
+  model.agents.findAll({
+  }).then(result => {
+     res.json(result);
+  })
 });
 
 module.exports = router;
