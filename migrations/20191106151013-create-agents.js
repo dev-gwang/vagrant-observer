@@ -9,11 +9,14 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique:true
       },
       address: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique:true
       },
+      count:Sequelize.INTEGER,
       description: {
         type: Sequelize.STRING
       },

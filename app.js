@@ -1,16 +1,23 @@
 var createError = require('http-errors');
-var express = require('express');
+var express     = require('express');
+var bodyParser	=	require("body-parser");
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var agentsRouter = require('./routes/agents');
 var usersRouter = require('./routes/users');
-require('./routes/sockets');
+// var socket = require('./routes/sockets');
+
+// agentsRouter.test = socket;
 
 var app = express();
-test = require('./utils/tcp-server')
+// test = require('./utils/tcp-server')
 // view engine setup
+app.use(cookieParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -22,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/agents', agentsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

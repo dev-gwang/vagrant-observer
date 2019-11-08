@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "create-local-domain-socket": "^1.0.2",
     "date-utils": "",
@@ -15,6 +16,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "mysql": "",
+    "mysql2": "^2.0.0",
     "sequelize": "",
     "sequelize-cli": "",
     "winston": "",

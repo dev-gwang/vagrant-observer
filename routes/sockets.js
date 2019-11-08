@@ -36,3 +36,5 @@ server.on('error', function (e) {
 server.listen(sockFile, function() { //UNIX domain sockets  사용시 
     logging.info('', util.format('PID ['+process.pid+'] TCP Server listening'));
 });
+
+module.exports = server;
